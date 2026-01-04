@@ -1,0 +1,9 @@
+->teachers<-
+separae db logic
+error handling
+validaion
+
+use json instead of encoder 
+
+->student<-
+1.student and teachers db fields are interconnected/relation that means it is relational db(RDBMS) 

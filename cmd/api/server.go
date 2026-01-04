@@ -19,7 +19,7 @@ func main() {
 	// }
 	err := godotenv.Load()
 	if err != nil {
-		return 
+		return
 	}
 
 	_, err = sqlconnect.ConnectDB()
@@ -29,13 +29,13 @@ func main() {
 	}
 
 	port := os.Getenv("API_PORT")
-	
+
 	cert := "cert.pem"
 	key := "key.pem"
 	config := tls.Config{
 		MinVersion: tls.VersionTLS12,
 	}
-	router := router.Router()
+	router := router.MainRouter()
 
 	server := &http.Server{
 		Addr:      port,

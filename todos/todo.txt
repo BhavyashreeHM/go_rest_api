@@ -1,0 +1,25 @@
+1.need to implement middlewares
+2.getteacherhandlers:
+      path is not working
+3.need to implement putteachershandler      
+
+
+11/12/2025
+check how make works?
+
+22/12/2025
+1.getall
+2.getbyid
+3.filter:query from database with specific parameter
+4.sort:
+
+23/12/225
+attende a interview test 
+   jwt atheniaion
+   deep diving or postman/ restapi funcionalities r
+   file handling 
+   error handling
+   http response code/ mehods
+
+
+

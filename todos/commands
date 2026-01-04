@@ -1,0 +1,49 @@
+git congif --global --list
+
+git status
+
+git add .
+
+git remote add origin https://github.com/BhavyashreeHM/Golang.git
+
+git commit -m "Added"
+
+git push -u origin main  = {only first time}
+
+git push - {further}
+
+
+
+
+2nd time
+1.git status
+2.git add
+3.git commit
+4.git push 
+
+git init
+
+///creating ssl certificate
+ openssl req -x509 -newkey rsa:2048 -nodes -keyout server.key -out server.crt -days 365
+
+//with openssl.cnf file
+openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout key.pem -out cert.pem -config openssl.cnf
+curl -v https://localhost:3000/about
+
+curl -v -k https://localhost:3000/about
+
+
+
+//updae
+sudo apt update && sudo apt upgrade -y
+
+sudo apt install -y protobuf-compiler 
+
+go help gopath
+
+protoc --version
+
+protoc-gen-go --verison
+
+PS1='\u@\h:\W\$ '
+

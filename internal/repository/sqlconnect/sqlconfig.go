@@ -36,8 +36,8 @@ func ConnectDB() (*sql.DB, error) {
 	// Test connection
 	err = db.Ping()
 	if err != nil {
-	    log.Fatal("Error connecting to database:", err)
-	}else {
+		log.Fatal("Error connecting to database:", err)
+	} else {
 		fmt.Println("Successfully connected to database")
 	}
 

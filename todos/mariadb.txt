@@ -1,0 +1,24 @@
+sudo apt install mariadb-server mariadb-client
+
+sudo systemctl status mariadb 
+
+sudo mysql -u root -p       
+
+SHOW DATABASES;
+
+CREATE DATABASE test_database;
+
+SHOW DATABASES;
+
+USE test_database
+
+CREATE TABLE  my_table(id int PRIMARY KEY AUTO_INCREMENT, name VARCHAR(50), age INT);
+
+SELECT * FROM my_table;
+
+SELECT * FROM my_table WHERE id=30;
+
+UPDATE my_table SET age=40 WHERE id =2;
+
+
+SELECT * FROM my_table;

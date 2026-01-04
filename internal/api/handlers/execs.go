@@ -5,20 +5,49 @@ import (
 	"net/http"
 )
 
-func ExecsHandler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "Executing some action!\n")
-	switch r.Method {
-	case http.MethodGet:
-		// Handle GET request to retrieve execs
-	case http.MethodPost:
-		// Handle POST request to create a new exec
-	case http.MethodPut:
-		// Handle PUT request to update an exec
-	case http.MethodDelete:
-		// Handle DELETE request to remove an exec
-	case http.MethodPatch:
-		// Handle PATCH request to partially update an exec
-	default:
-		http.Error(w, "Method not allowed", http.StatusMethodNotAllowed)
-	}
+func GetExexHandler(w http.ResponseWriter, r *http.Request) {
+	fmt.Fprintf(w, "This is execHandler")
+
+}
+
+func GetExecsHandler(w http.ResponseWriter, r *http.Request){
+
+}
+func AddExecsHandler(w http.ResponseWriter, r *http.Request){
+
+}
+func PatchExecsHandler(w http.ResponseWriter, r *http.Request){
+
+}
+
+func GetOneExecHandler(w http.ResponseWriter, r *http.Request){
+
+}
+
+func PatchOneExecHandler(w http.ResponseWriter, r *http.Request){
+
+}
+
+func DeleteOneExecHandler(w http.ResponseWriter, r *http.Request){
+
+}
+
+func UpdatePasswordHandler(w http.ResponseWriter, r *http.Request){
+
+}
+
+func LoginHandler(w http.ResponseWriter, r *http.Request){
+
+}
+
+func LogoutHandler(w http.ResponseWriter, r *http.Request){
+
+}
+
+func ForgotPasswordHandler(w http.ResponseWriter, r *http.Request){
+
+}
+
+func ResetPasswordHandler(w http.ResponseWriter, r *http.Request){
+
 }
